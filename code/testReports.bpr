@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="testReports.exe"/>
+    <OBJFILES value="testReports.obj testReportsUnit1.obj DMUnit.obj ParentUnit.obj 
+      ParentRepUnit.obj LessonResultRepUnit.obj LessonsReportsUnit.obj 
+      LetterToTeacherRepUnit.obj LetterToTeacherRepA5Unit.obj 
+      ChooseLessonTypeUnit.obj EmailOptionsUnit.obj ConfigurationUnit.obj 
+      BossParentRepUnit.obj BossReportsUnit.obj BossGroupRepUnit.obj 
+      BossRepUnit.obj FilteringUnit.obj RadehBandyRepUnit.obj RadehBandyUnit.obj 
+      ParentReportsUnit.obj PrintTablesUnit.obj GridRepUnit.obj"/>
+    <RESFILES value="testReports.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) testReportsUnit1.dfm DMUnit.dfm ParentUnit.dfm 
+      ParentRepUnit.dfm LessonResultRepUnit.dfm LessonsReportsUnit.dfm 
+      LetterToTeacherRepUnit.dfm LetterToTeacherRepA5Unit.dfm 
+      ChooseLessonTypeUnit.dfm EmailOptionsUnit.dfm ConfigurationUnit.dfm 
+      BossParentRepUnit.dfm BossReportsUnit.dfm BossGroupRepUnit.dfm 
+      BossRepUnit.dfm FilteringUnit.dfm RadehBandyRepUnit.dfm RadehBandyUnit.dfm 
+      ParentReportsUnit.dfm PrintTablesUnit.dfm GridRepUnit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="qrpt60.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib dbrtl.lib bdertl.lib qrpt.lib vclx.lib vcldb.lib 
+      qrpt60.lib nmfast.lib teedb.lib tee.lib teeqr.lib teeui.lib dss.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="testReports.cpp"/>
+    <INCLUDEPATH value="..\OLDNezarat;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;E:\Work\Nezarat;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="..\OLDNezarat;&quot;D:\Program Files\Borland\CBuilder6\Projects&quot;;E:\Work\Nezarat;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I..\OLDNezarat -I&quot;D:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -IE:\Work\Nezarat -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp 
+      -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="testReports.res" FORMNAME="" UNITNAME="testReports.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="testReports.cpp" FORMNAME="" UNITNAME="testReports" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="testReportsUnit1.cpp" FORMNAME="Form1" UNITNAME="testReportsUnit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DMUnit.cpp" FORMNAME="DM" UNITNAME="DMUnit" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="ParentUnit.cpp" FORMNAME="ParentForm" UNITNAME="ParentUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ParentRepUnit.cpp" FORMNAME="ParentRep" UNITNAME="ParentRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="LessonResultRepUnit.cpp" FORMNAME="LessonResultRep" UNITNAME="LessonResultRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="LessonsReportsUnit.cpp" FORMNAME="LessonsReportsForm" UNITNAME="LessonsReportsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LetterToTeacherRepUnit.cpp" FORMNAME="LetterToTeacherRep" UNITNAME="LetterToTeacherRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="LetterToTeacherRepA5Unit.cpp" FORMNAME="LetterToTeacherRepA5" UNITNAME="LetterToTeacherRepA5Unit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="ChooseLessonTypeUnit.cpp" FORMNAME="ChooseLessonType" UNITNAME="ChooseLessonTypeUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EmailOptionsUnit.cpp" FORMNAME="EmailOptionsForm" UNITNAME="EmailOptionsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ConfigurationUnit.cpp" FORMNAME="ConfigurationForm" UNITNAME="ConfigurationUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BossParentRepUnit.cpp" FORMNAME="BossParentRep" UNITNAME="BossParentRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="BossReportsUnit.cpp" FORMNAME="BossReportsForm" UNITNAME="BossReportsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BossGroupRepUnit.cpp" FORMNAME="BossGroupRep" UNITNAME="BossGroupRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="BossRepUnit.cpp" FORMNAME="BossRep" UNITNAME="BossRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="FilteringUnit.cpp" FORMNAME="FilteringForm" UNITNAME="FilteringUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="RadehBandyRepUnit.cpp" FORMNAME="RadehBandyRep" UNITNAME="RadehBandyRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+      <FILE FILENAME="RadehBandyUnit.cpp" FORMNAME="RadehBandyForm" UNITNAME="RadehBandyUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ParentReportsUnit.cpp" FORMNAME="ParentReportsForm" UNITNAME="ParentReportsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PrintTablesUnit.cpp" FORMNAME="PrintTablesForm" UNITNAME="PrintTablesUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GridRepUnit.cpp" FORMNAME="QRGridRep" UNITNAME="GridRepUnit" CONTAINERID="CCompiler" DESIGNCLASS="TQuickRep" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1065
+CodePage=1256
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+d:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>
